@@ -43,6 +43,21 @@ flowchart TD
 
 ---
 
+## 💻 Infrastructure & Software Technology Stack
+
+| Layer | Technology & Tools | Production Role |
+|---|---|---|
+| **Client WebAssembly Runtime** | Pyodide 0.26+, DuckDB Wasm, Arrow JS | In-browser CPython 3.12 and columnar SQL query execution with zero server compute costs |
+| **Reactive DAG Execution Engine**| Custom Topological Dependency Graph | Incremental dirty-node tracking recomputing only dependent downstream canvas blocks |
+| **Data Visualization Layer** | Vega-Lite, Observable Plot, D3.js | Declarative reactive charting binding live dataframe outputs to interactive charts |
+| **Server-Side MicroVM Sandboxing**| gVisor (runsc), Linux Seccomp-BPF | Secure multi-tenant fallback execution for long-running or GPU-dependent computations |
+| **Enterprise Privacy & Retention** | Zero Data Retention (ZDR) Cryptographic Guardrails | Verified non-training and ephemeral execution guarantees for sensitive proprietary data |
+| **API & IPC Transport** | FastAPI ASGI Router, Apache Arrow IPC | High-throughput binary streaming of dataframes and reactive canvas state diffs |
+| **Canvas Protocol Integration** | OpenAI Canvas Protocol, Model Context Protocol (MCP) | Seamless bidirectional artifact editing and multi-turn agent state updates |
+| **Container & Orchestration** | Kubernetes 1.30+, Docker OCI, Cgroups v2 | Memory-capped worker pools (512MB default limit) and instant pod eviction safeguards |
+
+---
+
 ## 🎯 Where to Use (Real-World Enterprise Production Scenarios)
 
 1. **Self-Service Financial Modeling & Scenario Stress-Testing**:
