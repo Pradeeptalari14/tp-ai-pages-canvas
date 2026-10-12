@@ -1,3 +1,6 @@
+[![Ecosystem](https://img.shields.io/badge/Portfolio%20Ecosystem-341%20Studios-6366f1.svg)](https://pradeeptalari.me/projects/)
+[![Architecture DAG](https://img.shields.io/badge/Architecture-DAG%20%26%20Course-10b981.svg)](https://pradeeptalari.me/tools/repo-learning/)
+
 # Pages Dynamic Canvas & Live Script Execution (`tp-ai-pages-canvas`)
 
 [![CI](https://github.com/Pradeeptalari14/tp-ai-pages-canvas/actions/workflows/canvas-ci.yml/badge.svg)](https://github.com/Pradeeptalari14/tp-ai-pages-canvas/actions)
@@ -139,3 +142,6 @@ tp-ai-pages-canvas/
 - **Seccomp & Syscall Filtering**: All server-side fallback runners operate under restricted gVisor runsc runtime with blocked raw sockets and blocked filesystem write permissions.
 - **Circuit Breaker on Graph Cycles**: The topological graph resolver evaluates cyclic dependency checks before dispatching execution, terminating recursive loops immediately.
 - **Resource Limits**: Individual canvas cells enforce strict 500ms CPU timeouts and 512MB memory quotas, preventing browser tab freezing.
+
+---
+*Synchronized with [AI Pages Dynamic Canvas Studio Studio](https://pradeeptalari.me/tools/ai-pages-dynamic-canvas/) & [Repository Learning DAG](https://pradeeptalari.me/tools/repo-learning/) — [Talari Pradeep Portfolio](https://pradeeptalari.me)*
